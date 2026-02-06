@@ -5,7 +5,7 @@ import ProfilePic from './assets/_MG_0082.jpg';
 const Portfolio = () => {
   const [introComplete, setIntroComplete] = useState(false);
   const [scrollY, setScrollY] = useState(0);
-  const [scrollProgress, setScrollProgress] = useState(0);
+  //const [scrollProgress, setScrollProgress] = useState(0);
   const [showScrollHint, setShowScrollHint] = useState(false);
   const [isDark, setIsDark] = useState(true); // Theme state
 
@@ -26,11 +26,11 @@ const Portfolio = () => {
       if (!ticking) {
         window.requestAnimationFrame(() => {
           const scrolled = window.scrollY;
-          const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-          const progress = scrolled / maxScroll;
+          //const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+          //const progress = scrolled / maxScroll;
           
           setScrollY(scrolled);
-          setScrollProgress(progress);
+          //setScrollProgress(progress);
           
           if (scrolled > 50) setShowScrollHint(false);
           
