@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Mail, Github, Linkedin, MessageCircle, ArrowDown, Moon, Sun, ExternalLink, Calendar } from 'lucide-react';
 import ProfilePic from './assets/_MG_0082.jpg';
+import ZidepeopleLogo from './assets/new-logo.png';
+import Imposter from './assets/download.png';
 
 const Portfolio = () => {
   const [introComplete, setIntroComplete] = useState(false);
@@ -167,8 +169,8 @@ const Portfolio = () => {
       period: "Jun 2024 - present",
       description: "Zidepeople is a production web platform where I developed and maintained both the primary user-facing website and the internal administration dashboard. I built scalable frontend systems focused on performance, usability, and responsive design while collaborating closely with backend engineers and designers to ship production-ready features.",
       tech: ["React", "Css", "REST APIs", "Git", "JavaScript"],
-      link: "#",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop"
+      link: "https://www.zidepeople.com/",
+      image: ZidepeopleLogo
     },
     {
       title: "Exodus",
@@ -176,23 +178,23 @@ const Portfolio = () => {
       description: "Exodus is a record label management platform that allows users to explore artists and access their streaming platforms and media content. I independently designed and developed the entire backend infrastructure, focusing on scalable API architecture and structured content management.",
       tech: ["Python", "Postgres", "FastAPI", "Render", "Postman", "REST APIs"],
       link: "#",
-      image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=500&fit=crop" 
+      image: "" 
     },
     {
-      title: "Lagos TurnUp",
+      title: "TurnUp Lagos",
       period: "May 2025 - Aug 2025",
       description: "TurnUp Lagos is an event discovery and tracking platform designed to help users find and stay updated on upcoming events. I handled full backend development, designing scalable APIs and authentication systems to support event management and user interactions.",
       tech: ["Python", "Postgres", "FastAPI", "Render", "Postman", "REST APIs"],
       link: "#",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop"
+      image: ""
     },
     {
       title: "Plan'et",
       period: "Mar 2024 - Aug 2024",
       description: "Plan’et is a full-stack event planning web application developed as my final year project. The platform allows users to organize, manage, and coordinate events through an interactive and responsive web interface.",
       tech: ["Python", "Postgres", "FastAPI", "HTML", "CSS", "JavaScript", "REST APIs"],
-      link: "#",
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=500&fit=crop"
+      link: "https://plan-et.onrender.com/docs",
+      image: ""
     },
     {
       title: "Imposter",
@@ -200,7 +202,7 @@ const Portfolio = () => {
       description: "Imposter is a multiplayer mobile party game inspired by social deduction gameplay. Players receive questions, but one player receives a different prompt and must blend in while others attempt to identify the imposter. The app focuses on real-time interaction, game logic, and scalable backend architecture.",
       tech: ["React Native", "Python", "FastAPI", "PostgreSQL", "Mobile Development", "Game Logic Design", "REST APIs"],
       link: "#",
-      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=500&fit=crop"
+      image: Imposter
     }
   ];
 
